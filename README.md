@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Populations with Limited Access to Mental Health Care | Analysis of health professional shortage areas in the United States
+# Populations with Limited Access to Mental Health Care | Analysis of health professional shortage areas in the United States
 
 # Table of Contents
 
@@ -15,7 +15,7 @@
 ---
 
 # Background
-Millions of American have a mental health condition and seek professional help every year. For some communities in the U.S., access to mental health care is not always available. Although people in vulnerable situations are more likely to struggle with a mental health condition, they experience more barriers to receive the medical help they need. 
+Millions of American have a mental health condition and seek professional help every year. For some communities in the U.S., access to mental health care is not always available. Although people in vulnerable situations are more likely to struggle with a mental health condition, they experience more barriers to receive the medical help they need.
 
 The Health Resources and Services Administration (HRSA) is an agency dedicated to address the gap of access to medical services for underserved populations.
 
@@ -33,9 +33,9 @@ The goal of this project is to explore the data available for HPSAs and identify
 
 # Data Collection
 ## Datasets Used:
-- HPSAs from 1973 to 2020 for the US and territories. Source: Health Resources and Administration. 
+- HPSAs from 1973 to 2020 for the US and territories. Source: Health Resources and Administration.
 - Total Covid cases from Jan 19 to Dec 01, 2020. Source:  USA Facts website.
-- Data for total populations in the US. Source: US Census Bureau 
+- Data for total populations in the US. Source: US Census Bureau
 
 ---
 
@@ -82,7 +82,7 @@ The goal of this project is to explore the data available for HPSAs and identify
 
 # Exploratory Data Analysis
 - Used Python libraries for visualizations.
-- Identified trends in states and counties. 
+- Identified trends in states and counties.
 - Trends over time.
 - Impact due to Covid-19
 - Trends by type of shortage area
@@ -113,7 +113,8 @@ Most facilities designated as HPSA are in Rural Areas
 
 ![](images/Figure5_facility_type_years.png)
 
-The number of HPSAs in counties near the Mexico border is relatively small but it has been increasing with two spikes in the last 4 years
+The number of HPSAs in counties near the Mexico border is relatively small but
+it has been increasing with two spikes in the last 4 years.
 
 ![](images/Figure6_facility_near_border_years.png)
 
@@ -162,7 +163,7 @@ People living below the poverty level were nearly 2.5 times more likely to have 
 |Adaboost|0.80|0.50|0.94|0.80|
 |Random Forest|0.83|0.72|0.89|0.76|
 
-The Random Forest classification model was selected. This model had 83% accuracy to predict if an HPSA would be withdrawn from its designation or not. 
+The Random Forest classification model was selected. This model had 83% accuracy to predict if an HPSA would be withdrawn from its designation or not.
 
 ---
 
@@ -181,4 +182,3 @@ The Random Forest classification model was selected. This model had 83% accuracy
 - Centers for Disease Control and Prevention, https://www.cdc.gov/nchs/fastats/mental-health.htm
 National Alliance of Mental Illness, https://www.nami.org/getattachment/Get-Involved/NAMI-National-Convention/Convention-Program-Schedule/Hill-Day-2017/FINAL-Hill-Day-17-Leave-Behind-all-(1).pdf
 - U.S Population by Year, https://www.multpl.com/united-states-population/table/by-year
-
